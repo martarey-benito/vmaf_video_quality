@@ -2,12 +2,11 @@
 The goal of this script is calculating the VMAF score for a given video pair.
 VMAF score is an indicator of the visual quality of an encoded video. 
 
-It helps to measure the encoding templates, and therefore have a baseline to
-drive encoding changes.
+It helps to measure how encoding set up is performing, and drive encoding changes, if needed.
 
-The script expects the videos, original and encoded version,  to be in an s3 bucket.
+The script expects video files, original and encoded versions, to be in an s3 bucket.
 
-## Usage
+## How to Use it
 
 1) Create a file named `comparing_files.csv` at the root of the project.
    The file follows below format:
@@ -19,7 +18,7 @@ The script expects the videos, original and encoded version,  to be in an s3 buc
 
    ```
    
-2) Open the `downloader.py` file and enter the s3 bucket that contains the videos, aws region, and a pair access key and secret access key with permissions to access the bucket. 
+2) Open the `downloader.py` file and enter the s3 bucket that contains the videos, aws region, and a pair access key and secret access key with permissions to access the s3 bucket. 
 
     Lines to replace:
     
@@ -33,7 +32,7 @@ The script expects the videos, original and encoded version,  to be in an s3 buc
    os.environ["AWS_SECRET_ACCESS_KEY"] = '<<REPLACE WITH SECRET_ACCESS_KEY>'
    ```
 
-3) Run the script as follows:
+3) Set uup the virtual environment and run the script as follows:
     
     Requirements: 
      * Python 3
