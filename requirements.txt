@@ -1,0 +1,15 @@
+appdirs==1.4.4
+certifi==2020.6.20
+click==7.1.2
+distlib==0.3.1
+filelock==3.0.12
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+meson==0.56.0
+pafy==0.5.5
+Python-dev==2.0.0.dev0
+six==1.15.0
+virtualenv==20.1.0
+Werkzeug==1.0.1
+youtube-dl==2020.9.6
