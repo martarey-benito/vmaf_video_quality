@@ -48,7 +48,7 @@ The script expects video files, original and encoded versions, to be in an s3 bu
         `pip3 install -r requirements.txt`
         
    3.4) Run the main script:
-         `cd src`
+         `cd src` and then
         `python3 main.py`
         
 4) The script will download the video files from s3 and save them in 
