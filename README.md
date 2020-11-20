@@ -45,7 +45,7 @@ The script expects video files, original and encoded versions, to be in an s3 bu
         `source venv/bin/activate`
    
    3.3) Install python dependencies:
-        `pip -r install requirements.txt`
+        `pip install -r requirements.txt`
         
    3.4) Run the main script:
         `python main.py`
