@@ -8,7 +8,7 @@ The script expects video files, original and encoded versions, to be in an s3 bu
 
 ## How to Use it
 
-1) Create a file named `comparing_files.csv` at the root of the project.
+1) Create a file named `comparing_files.csv` within the `src` folder, next to the `main.py` file.
    The file follows below format:
    
    ```
