@@ -45,10 +45,10 @@ The script expects video files, original and encoded versions, to be in an s3 bu
         `source venv/bin/activate`
    
    3.3) Install python dependencies:
-        `pip install -r requirements.txt`
+        `pip3 install -r requirements.txt`
         
    3.4) Run the main script:
-        `python main.py`
+        `python3 main.py`
         
 4) The script will download the video files from s3 and save them in 
     a `./tmp` folder. Also within the `./tmp` folder, it will create a file named `vmaf_result.csv` containing the VMAF results. The file follows the below format:
