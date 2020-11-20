@@ -1,8 +1,8 @@
 import os
 import time
 from pathlib import Path
-from src.downloader import Downloader, compose_local_file
-from src.vmaf import VMAFHelper
+from downloader import Downloader, compose_local_file
+from vmaf import VMAFHelper
 
 
 def read_comparison_to_do(comparison_file_name='comparing_files.csv'):
